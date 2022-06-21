@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import Head from "next/head";
 import { TOKEN, DATABASE_ID } from "../config";
 
-export default function Projects(projects) {
+export default function Projects({projects}) {
   
   console.log(projects);
 
@@ -13,7 +13,7 @@ export default function Projects(projects) {
         <meta name="description" content="차곡차곡 쌓아보자" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>총 프로젝트 : </h1>
+      <h1>총 프로젝트 : {projects.length} </h1>
     </Layout>
   );
 }
