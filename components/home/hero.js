@@ -18,8 +18,8 @@ export default function Hero() {
                     소프트웨어에는 사실 의미있는
                     것들이 거의 없다. 만일 그런 게 있다고 할지라도, 유일한
                     성공척도는 고객들이 뭐가 문제인지 몰라 갈팡질팡하는 걸
-                    도와주었냐 하는 것이다. (Jeff Atwood, StackOverFlow의
-                    창립자)
+                    도와주었냐 하는 것이다. 
+                    (Jeff Atwood, StackOverFlow의 창립자)
                     <br className="hidden lg:inline-block" />
                 </p>
                 <div className="flex justify-center">
