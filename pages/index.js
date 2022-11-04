@@ -11,8 +11,8 @@ export default function Home() {
         <meta name="description" content="차곡차곡 쌓아보자" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="flex min-h-screen flex-col itmes-center justify-center text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <section className="flex flex-col justify-center min-h-screen text-gray-600 itmes-center body-font">
+        <div className="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
           <Hero />
         </div>
       </section>
