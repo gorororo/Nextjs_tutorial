@@ -11,6 +11,8 @@ export default function ProjectItem({data}){
   const start = data.properties.WorkPeriod.date.start
   const end = data.properties.WorkPeriod.date.end
 
+  console.log(imgSrc);
+
   const calculatedPeriod = (start, end) => {
     const startDateStringArray = start.split('-');
     const endDateStringArray = end.split('-');
